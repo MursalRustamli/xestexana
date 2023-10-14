@@ -1,0 +1,130 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  &-profil {
+    background-image: url("https://preview.colorlib.com/theme/medcare/img/banner/home-banner.jpg.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100%;
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 3rem;
+      .profil-cards {
+        border-radius: 10px;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 4rem 2rem;
+        .profil-img {
+          text-align: center;
+          border-radius: 10px;
+          padding: 2rem;
+          gap: 3rem;
+          i {
+            font-size: 10rem;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: #1f1f1f1f;
+            height: 15rem;
+            width: 15rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          p {
+            font-size: 2.5rem;
+          }
+        }
+        .profil-card {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding: 1rem;
+          border-bottom: 1px solid black;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  &-resept {
+    background: url("https://media.istockphoto.com/id/559537925/photo/pharmacist-filling-prescription-in-pharmacy.jpg?s=1024x1024&w=is&k=20&c=sHE81fXDj89lnPPvB9_HTJ0_kwOJulLGKM2_GYgVg7s=");
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 3rem 0;
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 3rem;
+      .reseptler {
+        border-radius: 10px;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4rem 2rem;
+        h1 {
+          color: red;
+          font-size: 4rem;
+          text-align: center;
+          margin: 2rem 0;
+          gap: 2rem;
+        }
+        .reseptler-btn {
+          padding: 10px 10px;
+          border-radius: 6px;
+          width: 10rem;
+          border: none;
+          background-color: green;
+          color: #fff;
+        }
+        .reseptler-card {
+          display: flex;
+          width: 100%;
+          padding: 1rem;
+          border-bottom: 1px solid black;
+          font-size: 2rem;
+        }
+        .reseptler-card-comment {
+            display: flex;
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid black;
+            font-size: 2rem;
+            border-radius: 10px;
+        }
+        h3 {
+            font-size: 2rem;
+            align-self: end;
+            margin-top:1rem ;
+        }
+
+      }
+    }
+  }
+}
+.reseptler-map {
+    width: 100%;
+    margin-top: 1rem;
+}
